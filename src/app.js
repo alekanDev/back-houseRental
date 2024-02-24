@@ -5,6 +5,9 @@ import cors from 'cors'
 import morgan from 'morgan'
 import { houseRoutes } from "./routes/houseRoutes"
 
+
+
+
 const app = express()
 const PORT = process.env.serverPORT
 
